@@ -18,4 +18,4 @@ function rand(num){
 }
 
 console.log(rand(60)); 
-//any number can replace 60
+//any number can replace
