@@ -9,59 +9,43 @@ function setup (){
 
 
 
-void draw() { } // Empty draw() needed to keep the program running
-
-
-
-void keyPressed() {
-
-  println("pressed " + int(key) + " " + keyCode);
-
-}
-
-
-
-void keyTyped() {
-
-  println("typed " + int(key) + " " + keyCode);
-
-}
-
-
-
-void keyReleased() {
-
-  println("released " + int(key) + " " + keyCode);
-
-}
-
-
-
-
-
-
-
-
 
 var x = 200;
-var WordCount = []
-var Score = [0,1];
+var WordCount = [];
+var score = [0,1];
 var WordsorLetters = ["Find", "Punitive", "Lucrative", "Stroke", "Jester"]; 
 
-var newWords - words.split("");
+function keyPressed(words) = true;
+if (keyCode === LEFT_ARROW) {
+    value = 255;
+  } else if (keyCode === RIGHT_ARROW) {
+    value = 0;
+  }
+}
+
+
+
+var score = 0 
+
+
+
+
+console.log(words);
+
+var newWords = words.split("");
 console.log(newWords);
 
 
 function draw (){
     background(150);
     textSize(32);
-text("Finding", x, 30);
+text(WordorLetters[i]);
 fill(0, 102, 153);
 text("lucrative", x, 60);
 fill(0, 102, 153, 51);
 text("Damnation", x, 90);
-var str = "Finding lucrative damnation";
-var res = str.split("Finding lucrative damnation");
+//var str = "Finding lucrative damnation";
+//var res = str.split("Finding lucrative damnation");
     
     //s = "The quick brown fox jumped over the lazy dog.";
 //fill(50);
