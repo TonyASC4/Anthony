@@ -1,0 +1,38 @@
+body{
+    background: blue;
+    background-size: cover;
+    background-position: center; 
+    text-align: center; 
+}
+
+.singleBurger{  /*A Class, with 4 subsections (4 paragraphs)*/
+
+    border: solid 3px Green; 
+    background-color: red; 
+    width:65%; /*changes the size of anything inputed with div (the subsections)*/
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 25%; 
+    padding: 25%; /*changes the size or spacing of the subsections*/
+}
+
+.mainContent{
+
+    border: dashed 5px red; 
+}
+
+img{ /*for each image inside the div (subsections) screens*/
+
+width:35%; /*Getting the width to 100% would cause bunching*/
+display: in-line block;
+vertical-align: middle; 
+
+
+}
+
+p{/*
+width:65%; /*Getting the width to 100% would cause bunching*/
+display: in-line block;
+vertical-align: middle; 
+
+}

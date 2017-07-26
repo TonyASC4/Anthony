@@ -1,0 +1,62 @@
+/*body{
+    background: blue;
+    background-size: cover;
+    background-position: center; 
+    text-align: center;
+}*/
+
+.TL{  /*A Class, with 4 subsections (4 paragraphs)*/
+
+    border: solid 3px Green; 
+    background-color: red; 
+    width:65%; /*changes the size of anything inputed with div (the subsections)*/
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 25%; 
+    padding: 25%; /*changes the size or spacing of the subsections*/
+}
+
+.TL2{  /*A Class, with 4 subsections (4 paragraphs)*/
+
+    border: solid 3px Green; 
+    background-color: red; 
+    width:65%; /*changes the size of anything inputed with div (the subsections)*/
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 25%;
+    background-position: center;
+    text-align: center;
+    font-family: helvetica; 
+    padding: 25%; /*changes the size or spacing of the subsections*/
+}  
+   
+/*
+.LTL{  /*A Class, with 4 subsections (4 paragraphs)*/
+
+    border: solid 3px Blue; 
+    background-color: orange; 
+    width:25%; /*changes the size of anything inputed with div (the subsections)*/
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 25%; 
+    padding: 25%; /*changes the size or spacing of the subsections*/
+}
+*/
+
+
+img{ /*for each image inside the div (subsections) screens*/
+
+width:45%; /*Getting the width to 100% would cause bunching*/
+display: in-line block;
+vertical-align: middle; 
+
+
+}
+
+p{/*
+width:65%; /*Getting the width to 100% would cause bunching*/
+display: in-line block;
+vertical-align: middle; 
+
+}
+
